@@ -1,0 +1,368 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+D:\xilinx12.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPU.ucf
+
+Design file:              CPU.ncd
+Physical constraint file: CPU.pcf
+Device,package,speed:     xc3s1200e,fg320,-4 (PRODUCTION 1.27 2010-11-18)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock CLK_50m to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+ram1_oe     |   11.673(R)|CLK_50m_BUFGP     |   0.000|
+ram1_rw     |   11.904(R)|CLK_50m_BUFGP     |   0.000|
+ram2_oe     |   12.385(R)|CLK_50m_BUFGP     |   0.000|
+ram2_rw     |   11.995(R)|CLK_50m_BUFGP     |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK_50m
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_50m        |    5.061|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+data_ready     |display<1>     |   16.028|
+inputSW<0>     |display<0>     |   23.925|
+inputSW<0>     |display<1>     |   17.017|
+inputSW<0>     |display<2>     |   18.928|
+inputSW<0>     |display<3>     |   17.141|
+inputSW<0>     |display<4>     |   17.330|
+inputSW<0>     |display<5>     |   17.993|
+inputSW<0>     |display<6>     |   19.895|
+inputSW<0>     |display<7>     |   20.158|
+inputSW<0>     |display<8>     |   17.435|
+inputSW<0>     |display<9>     |   17.941|
+inputSW<0>     |display<10>    |   18.258|
+inputSW<0>     |display<11>    |   17.644|
+inputSW<0>     |display<12>    |   18.080|
+inputSW<0>     |display<13>    |   17.859|
+inputSW<0>     |display<14>    |   19.670|
+inputSW<0>     |display<15>    |   19.542|
+inputSW<1>     |display<0>     |   23.725|
+inputSW<1>     |display<1>     |   17.767|
+inputSW<1>     |display<2>     |   19.054|
+inputSW<1>     |display<3>     |   17.995|
+inputSW<1>     |display<4>     |   17.871|
+inputSW<1>     |display<5>     |   18.976|
+inputSW<1>     |display<6>     |   20.730|
+inputSW<1>     |display<7>     |   20.837|
+inputSW<1>     |display<8>     |   18.012|
+inputSW<1>     |display<9>     |   19.103|
+inputSW<1>     |display<10>    |   19.197|
+inputSW<1>     |display<11>    |   18.609|
+inputSW<1>     |display<12>    |   19.457|
+inputSW<1>     |display<13>    |   18.865|
+inputSW<1>     |display<14>    |   20.275|
+inputSW<1>     |display<15>    |   20.241|
+inputSW<2>     |display<0>     |   24.896|
+inputSW<2>     |display<1>     |   18.295|
+inputSW<2>     |display<2>     |   20.206|
+inputSW<2>     |display<3>     |   18.493|
+inputSW<2>     |display<4>     |   18.119|
+inputSW<2>     |display<5>     |   19.369|
+inputSW<2>     |display<6>     |   21.336|
+inputSW<2>     |display<7>     |   21.587|
+inputSW<2>     |display<8>     |   21.168|
+inputSW<2>     |display<9>     |   21.436|
+inputSW<2>     |display<10>    |   20.633|
+inputSW<2>     |display<11>    |   21.223|
+inputSW<2>     |display<12>    |   21.813|
+inputSW<2>     |display<13>    |   21.592|
+inputSW<2>     |display<14>    |   21.910|
+inputSW<2>     |display<15>    |   21.783|
+inputSW<3>     |display<0>     |   24.556|
+inputSW<3>     |display<1>     |   18.691|
+inputSW<3>     |display<2>     |   20.036|
+inputSW<3>     |display<3>     |   18.791|
+inputSW<3>     |display<4>     |   18.853|
+inputSW<3>     |display<5>     |   19.958|
+inputSW<3>     |display<6>     |   21.712|
+inputSW<3>     |display<7>     |   21.819|
+inputSW<3>     |display<8>     |   19.375|
+inputSW<3>     |display<9>     |   19.950|
+inputSW<3>     |display<10>    |   19.973|
+inputSW<3>     |display<11>    |   19.430|
+inputSW<3>     |display<12>    |   20.219|
+inputSW<3>     |display<13>    |   19.799|
+inputSW<3>     |display<14>    |   21.257|
+inputSW<3>     |display<15>    |   21.223|
+inputSW<4>     |display<0>     |   25.820|
+inputSW<4>     |display<1>     |   19.219|
+inputSW<4>     |display<2>     |   21.130|
+inputSW<4>     |display<3>     |   19.203|
+inputSW<4>     |display<4>     |   19.043|
+inputSW<4>     |display<5>     |   20.195|
+inputSW<4>     |display<6>     |   21.666|
+inputSW<4>     |display<7>     |   21.991|
+inputSW<4>     |display<8>     |   20.213|
+inputSW<4>     |display<9>     |   21.304|
+inputSW<4>     |display<10>    |   20.554|
+inputSW<4>     |display<11>    |   19.966|
+inputSW<4>     |display<12>    |   20.728|
+inputSW<4>     |display<13>    |   20.136|
+inputSW<4>     |display<14>    |   21.872|
+inputSW<4>     |display<15>    |   21.628|
+inputSW<5>     |display<0>     |   25.702|
+inputSW<5>     |display<1>     |   19.477|
+inputSW<5>     |display<2>     |   21.012|
+inputSW<5>     |display<3>     |   19.591|
+inputSW<5>     |display<4>     |   19.161|
+inputSW<5>     |display<5>     |   20.467|
+inputSW<5>     |display<6>     |   22.434|
+inputSW<5>     |display<7>     |   22.685|
+inputSW<5>     |display<8>     |   22.266|
+inputSW<5>     |display<9>     |   22.534|
+inputSW<5>     |display<10>    |   21.731|
+inputSW<5>     |display<11>    |   22.321|
+inputSW<5>     |display<12>    |   22.911|
+inputSW<5>     |display<13>    |   22.690|
+inputSW<5>     |display<14>    |   23.008|
+inputSW<5>     |display<15>    |   22.881|
+inputSW<6>     |display<0>     |   22.103|
+inputSW<6>     |display<1>     |   18.596|
+inputSW<6>     |display<2>     |   19.967|
+inputSW<6>     |display<3>     |   18.933|
+inputSW<6>     |display<4>     |   18.299|
+inputSW<6>     |display<5>     |   19.809|
+inputSW<6>     |display<6>     |   21.776|
+inputSW<6>     |display<7>     |   22.027|
+inputSW<6>     |display<8>     |   21.608|
+inputSW<6>     |display<9>     |   21.876|
+inputSW<6>     |display<10>    |   21.073|
+inputSW<6>     |display<11>    |   21.663|
+inputSW<6>     |display<12>    |   22.253|
+inputSW<6>     |display<13>    |   22.032|
+inputSW<6>     |display<14>    |   22.350|
+inputSW<6>     |display<15>    |   22.223|
+inputSW<7>     |display<0>     |   19.571|
+inputSW<7>     |display<1>     |   16.064|
+inputSW<7>     |display<2>     |   17.435|
+inputSW<7>     |display<3>     |   16.401|
+inputSW<7>     |display<4>     |   15.767|
+inputSW<7>     |display<5>     |   17.277|
+inputSW<7>     |display<6>     |   19.244|
+inputSW<7>     |display<7>     |   19.495|
+inputSW<7>     |display<8>     |   19.076|
+inputSW<7>     |display<9>     |   19.344|
+inputSW<7>     |display<10>    |   18.541|
+inputSW<7>     |display<11>    |   19.131|
+inputSW<7>     |display<12>    |   19.721|
+inputSW<7>     |display<13>    |   19.500|
+inputSW<7>     |display<14>    |   19.818|
+inputSW<7>     |display<15>    |   19.691|
+inputSW<8>     |display<0>     |   26.032|
+inputSW<8>     |display<1>     |   19.444|
+inputSW<8>     |display<2>     |   21.342|
+inputSW<8>     |display<3>     |   19.415|
+inputSW<8>     |display<4>     |   19.255|
+inputSW<8>     |display<5>     |   20.407|
+inputSW<8>     |display<6>     |   21.894|
+inputSW<8>     |display<7>     |   22.248|
+inputSW<8>     |display<8>     |   20.470|
+inputSW<8>     |display<9>     |   21.561|
+inputSW<8>     |display<10>    |   20.427|
+inputSW<8>     |display<11>    |   19.571|
+inputSW<8>     |display<12>    |   20.985|
+inputSW<8>     |display<13>    |   20.393|
+inputSW<8>     |display<14>    |   22.084|
+inputSW<8>     |display<15>    |   21.885|
+inputSW<9>     |display<0>     |   19.547|
+inputSW<9>     |display<1>     |   16.040|
+inputSW<9>     |display<2>     |   17.411|
+inputSW<9>     |display<3>     |   16.377|
+inputSW<9>     |display<4>     |   15.743|
+inputSW<9>     |display<5>     |   17.253|
+inputSW<9>     |display<6>     |   19.220|
+inputSW<9>     |display<7>     |   19.471|
+inputSW<9>     |display<8>     |   19.052|
+inputSW<9>     |display<9>     |   19.320|
+inputSW<9>     |display<10>    |   18.517|
+inputSW<9>     |display<11>    |   19.107|
+inputSW<9>     |display<12>    |   19.697|
+inputSW<9>     |display<13>    |   19.476|
+inputSW<9>     |display<14>    |   19.794|
+inputSW<9>     |display<15>    |   19.667|
+inputSW<10>    |display<0>     |   19.403|
+inputSW<10>    |display<1>     |   15.896|
+inputSW<10>    |display<2>     |   17.267|
+inputSW<10>    |display<3>     |   16.233|
+inputSW<10>    |display<4>     |   15.599|
+inputSW<10>    |display<5>     |   17.109|
+inputSW<10>    |display<6>     |   19.076|
+inputSW<10>    |display<7>     |   19.327|
+inputSW<10>    |display<8>     |   18.908|
+inputSW<10>    |display<9>     |   19.176|
+inputSW<10>    |display<10>    |   18.373|
+inputSW<10>    |display<11>    |   18.963|
+inputSW<10>    |display<12>    |   19.553|
+inputSW<10>    |display<13>    |   19.332|
+inputSW<10>    |display<14>    |   19.650|
+inputSW<10>    |display<15>    |   19.523|
+inputSW<11>    |display<0>     |   19.587|
+inputSW<11>    |display<1>     |   16.080|
+inputSW<11>    |display<2>     |   17.451|
+inputSW<11>    |display<3>     |   16.417|
+inputSW<11>    |display<4>     |   15.783|
+inputSW<11>    |display<5>     |   17.293|
+inputSW<11>    |display<6>     |   19.260|
+inputSW<11>    |display<7>     |   19.511|
+inputSW<11>    |display<8>     |   19.092|
+inputSW<11>    |display<9>     |   19.360|
+inputSW<11>    |display<10>    |   18.557|
+inputSW<11>    |display<11>    |   19.147|
+inputSW<11>    |display<12>    |   19.737|
+inputSW<11>    |display<13>    |   19.516|
+inputSW<11>    |display<14>    |   19.834|
+inputSW<11>    |display<15>    |   19.707|
+inputSW<12>    |display<0>     |   20.521|
+inputSW<12>    |display<1>     |   17.014|
+inputSW<12>    |display<2>     |   18.385|
+inputSW<12>    |display<3>     |   17.351|
+inputSW<12>    |display<4>     |   16.717|
+inputSW<12>    |display<5>     |   18.227|
+inputSW<12>    |display<6>     |   20.194|
+inputSW<12>    |display<7>     |   20.445|
+inputSW<12>    |display<8>     |   20.026|
+inputSW<12>    |display<9>     |   20.294|
+inputSW<12>    |display<10>    |   19.491|
+inputSW<12>    |display<11>    |   20.081|
+inputSW<12>    |display<12>    |   20.671|
+inputSW<12>    |display<13>    |   20.450|
+inputSW<12>    |display<14>    |   20.768|
+inputSW<12>    |display<15>    |   20.641|
+inputSW<13>    |display<0>     |   21.041|
+inputSW<13>    |display<1>     |   17.534|
+inputSW<13>    |display<2>     |   18.905|
+inputSW<13>    |display<3>     |   17.871|
+inputSW<13>    |display<4>     |   17.237|
+inputSW<13>    |display<5>     |   18.747|
+inputSW<13>    |display<6>     |   20.714|
+inputSW<13>    |display<7>     |   20.965|
+inputSW<13>    |display<8>     |   20.546|
+inputSW<13>    |display<9>     |   20.814|
+inputSW<13>    |display<10>    |   20.011|
+inputSW<13>    |display<11>    |   20.601|
+inputSW<13>    |display<12>    |   21.191|
+inputSW<13>    |display<13>    |   20.970|
+inputSW<13>    |display<14>    |   21.288|
+inputSW<13>    |display<15>    |   21.161|
+inputSW<14>    |display<0>     |   21.553|
+inputSW<14>    |display<1>     |   18.046|
+inputSW<14>    |display<2>     |   19.417|
+inputSW<14>    |display<3>     |   18.383|
+inputSW<14>    |display<4>     |   17.749|
+inputSW<14>    |display<5>     |   19.259|
+inputSW<14>    |display<6>     |   21.226|
+inputSW<14>    |display<7>     |   21.477|
+inputSW<14>    |display<8>     |   21.058|
+inputSW<14>    |display<9>     |   21.326|
+inputSW<14>    |display<10>    |   20.523|
+inputSW<14>    |display<11>    |   21.113|
+inputSW<14>    |display<12>    |   21.703|
+inputSW<14>    |display<13>    |   21.482|
+inputSW<14>    |display<14>    |   21.800|
+inputSW<14>    |display<15>    |   21.673|
+inputSW<15>    |display<0>     |   20.190|
+inputSW<15>    |display<1>     |   16.683|
+inputSW<15>    |display<2>     |   18.054|
+inputSW<15>    |display<3>     |   17.020|
+inputSW<15>    |display<4>     |   16.386|
+inputSW<15>    |display<5>     |   17.896|
+inputSW<15>    |display<6>     |   19.863|
+inputSW<15>    |display<7>     |   20.114|
+inputSW<15>    |display<8>     |   19.695|
+inputSW<15>    |display<9>     |   19.963|
+inputSW<15>    |display<10>    |   19.160|
+inputSW<15>    |display<11>    |   19.750|
+inputSW<15>    |display<12>    |   20.340|
+inputSW<15>    |display<13>    |   20.119|
+inputSW<15>    |display<14>    |   20.437|
+inputSW<15>    |display<15>    |   20.310|
+ram1_data<0>   |display<0>     |   15.610|
+ram1_data<1>   |display<1>     |   13.983|
+ram1_data<2>   |display<2>     |   15.301|
+ram1_data<3>   |display<3>     |   14.717|
+ram1_data<4>   |display<4>     |   13.804|
+ram1_data<5>   |display<5>     |   13.596|
+ram1_data<6>   |display<6>     |   14.359|
+ram1_data<7>   |display<7>     |   13.473|
+ram1_data<8>   |display<8>     |   14.070|
+ram1_data<9>   |display<9>     |   13.905|
+ram1_data<10>  |display<10>    |   13.132|
+ram1_data<11>  |display<11>    |   12.722|
+ram1_data<12>  |display<12>    |   13.149|
+ram1_data<13>  |display<13>    |   12.952|
+ram1_data<14>  |display<14>    |   13.768|
+ram1_data<15>  |display<15>    |   13.575|
+ram2_data<0>   |display<0>     |   18.815|
+ram2_data<1>   |display<1>     |   15.974|
+ram2_data<2>   |display<2>     |   15.681|
+ram2_data<3>   |display<3>     |   16.042|
+ram2_data<4>   |display<4>     |   13.768|
+ram2_data<5>   |display<5>     |   15.274|
+ram2_data<6>   |display<6>     |   14.484|
+ram2_data<7>   |display<7>     |   14.422|
+ram2_data<8>   |display<8>     |   14.689|
+ram2_data<9>   |display<9>     |   14.867|
+ram2_data<10>  |display<10>    |   14.719|
+ram2_data<11>  |display<11>    |   14.101|
+ram2_data<12>  |display<12>    |   14.153|
+ram2_data<13>  |display<13>    |   14.085|
+ram2_data<14>  |display<14>    |   15.225|
+ram2_data<15>  |display<15>    |   15.164|
+tbre           |display<0>     |   17.442|
+tsre           |display<0>     |   17.306|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Dec 04 20:22:37 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 197 MB
+
+
+

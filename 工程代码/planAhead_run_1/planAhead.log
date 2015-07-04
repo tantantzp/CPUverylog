@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# PlanAhead v12.4
+# Build 108585 by hdbuild on Tue Nov  9 17:32:56 MST 2010
+# Start of session at: Fri Nov 29 19:39:51 2013
+# Process ID: 6624
+# Log file: E:/computerOrg/CPU/planAhead_run_1/planAhead.log
+# Journal file: E:/computerOrg/CPU/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-Licensing 3] Your PlanAhead license expires in -668 day(s)
+INFO: [HD-ArchReader 0] Loading parts and site information from D:\xilinx12.4\ISE_DS\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'D:\xilinx12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'D:\xilinx12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+start_gui -source E:/computerOrg/CPU/pa.fromNetlist.tcl
+INFO: [HD-Licensing 4] Feature available: PartialReconfiguration
+# create_project -name CPU -dir "E:/computerOrg/CPU/planAhead_run_2" -part xc3s1200efg320-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "E:/computerOrg/CPU/CPU.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {E:/computerOrg/CPU} }
+# set_param project.paUcfFile  "CPU.ucf"
+# add_files "CPU.ucf" -fileset [get_property constrset [current_run]]
+# open_netlist_design
+INFO: Run is defaulting to constrset part: xc3s1200efg320-4
+INFO: [HD-EDIFIN 0] Parsing Edif File '.\.HDI-PlanAhead-6624-tanzp-PC\ngc2edif\CPU.edif'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File '.\.HDI-PlanAhead-6624-tanzp-PC\ngc2edif\CPU.edif'
+INFO: [HD-ArchReader 18] Reading macro library D:/xilinx12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+INFO: [HD-EDIFIN 0] Parsing Edif File 'D:/xilinx12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File 'D:/xilinx12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn'
+WARN: [HD-NETLIST 3] Netlist 'CPU' is not ideal for floorplanning, since the cellview 'CPU' defined in file 'CPU.ngc' contains large number of primitives. Please consider enabling hierarchy in synthesis before floorplan. You can enable hierarchy in XST by setting '-keep_hierarchy=yes' or '-netlist_hierarchy=rebuilt' flags.
+INFO: [HD-ArchReader 7] Loading clock regions from D:/xilinx12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s1200e/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from D:/xilinx12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s1200e/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from D:/xilinx12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s1200e/fg320/Package.xml
+INFO: [HD-ArchReader 4] Loading io standards from D:/xilinx12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [HD-ArchReader 5] Loading pkg sso from D:/xilinx12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s1200e/fg320/SSORules.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : D:/xilinx12.4/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [HD-UCFReader 0] Parsing UCF File : .\CPU.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : .\CPU.ucf
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: PlanAhead v12.4 by hdbuild
+          on  Tue Nov  9 17:32:56 MST 2010
+  Report: by tanzp on host tanzp-PC, pid 6624
+          on Fri Nov 29 19:40:02 2013
+
+REPORT SUMMARY
+            Netlist: netlist
+          Floorplan: <none>
+      Design limits: <entire design considered>
+             Checks: Unknown block name
+                     Unknown Unisim pin name
+                     Mismatching Attribute
+           Max vios: <unlimited>
+         Vios found: 0
+
+REPORT DETAILS
+INFO: [HD-LIB 0] Reading timing library D:/xilinx12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib .
+INFO: [HD-LIB 1] Done reading timing library D:/xilinx12.4/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib .
+exit
+INFO: [HD-Application 0] Exiting PlanAhead...
+INFO: [HD-Licensing 2] Releasing license: PlanAhead

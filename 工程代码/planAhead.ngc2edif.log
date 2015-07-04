@@ -1,0 +1,347 @@
+Release 12.4 - ngc2edif M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design CPU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CPU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus EXE_rx_data<15 : 1> on block CPU is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src1_mux0000<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2_mux0000<4 : 1> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/MemSrc<3 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out_mux0000<7 :
+   3> on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/MemSrc_out_mux0000<7 : 4>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_IF_ID_Reg/instruction_out<15 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CPU.edif ...
+ngc2edif: Total memory usage is 71752 kilobytes
+
+Release 12.4 - ngc2edif M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design CPU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CPU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus EXE_rx_data<15 : 1> on block CPU is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src1_mux0000<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2_mux0000<4 : 1> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/MemSrc<3 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out_mux0000<7 :
+   3> on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/MemSrc_out_mux0000<7 : 4>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_IF_ID_Reg/instruction_out<15 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CPU.edif ...
+ngc2edif: Total memory usage is 71240 kilobytes
+
+Release 12.4 - ngc2edif M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design CPU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CPU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus EXE_rx_data<15 : 1> on block CPU is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src1_mux0000<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2_mux0000<4 : 1> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/MemSrc<3 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out_mux0000<7 :
+   3> on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/MemSrc_out_mux0000<7 : 4>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_IF_ID_Reg/instruction_out<15 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CPU.edif ...
+ngc2edif: Total memory usage is 71752 kilobytes
+
+Release 12.4 - ngc2edif M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design CPU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CPU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus EXE_rx_data<15 : 1> on block CPU is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src1_mux0000<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2_mux0000<4 : 1> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/MemSrc<3 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out_mux0000<7 :
+   3> on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/MemSrc_out_mux0000<7 : 4>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_IF_ID_Reg/instruction_out<15 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CPU.edif ...
+ngc2edif: Total memory usage is 71240 kilobytes
+
+Release 12.4 - ngc2edif M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design CPU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CPU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus EXE_rx_data<15 : 1> on block CPU is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src1_mux0000<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2_mux0000<4 : 1> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/MemSrc<3 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out_mux0000<7 :
+   3> on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/MemSrc_out_mux0000<7 : 4>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_IF_ID_Reg/instruction_out<15 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CPU.edif ...
+ngc2edif: Total memory usage is 71240 kilobytes
+
+Release 12.4 - ngc2edif M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design CPU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CPU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file CPU.edif ...
+ngc2edif: Total memory usage is 70216 kilobytes
+
+Release 12.4 - ngc2edif M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design CPU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CPU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file CPU.edif ...
+ngc2edif: Total memory usage is 69768 kilobytes
+
+Release 12.4 - ngc2edif M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design CPU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CPU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2_mux0000<4 : 1> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/MemSrc<3 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBReg<5 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBReg_mux0000<5 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBSrc<4 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBSrc_mux0000<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_EXE_MEM_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out<5 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out_mux0000<7 :
+   2> on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/MemSrc_out_mux0000<7 : 4>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/WBSrc_out_mux0000<7 : 3>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_MEM_WB_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CPU.edif ...
+ngc2edif: Total memory usage is 77156 kilobytes
+
+Release 12.4 - ngc2edif M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design CPU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CPU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2_mux0000<4 : 1> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/MemSrc<3 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBReg<5 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBReg_mux0000<5 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBSrc<4 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBSrc_mux0000<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_EXE_MEM_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out<5 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out_mux0000<7 :
+   2> on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/MemSrc_out_mux0000<7 : 4>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/WBSrc_out_mux0000<7 : 3>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_MEM_WB_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CPU.edif ...
+ngc2edif: Total memory usage is 77092 kilobytes
+
+Release 12.4 - ngc2edif M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design CPU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CPU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2_mux0000<4 : 1> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/MemSrc<3 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBReg<5 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBReg_mux0000<5 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBSrc<4 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBSrc_mux0000<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_EXE_MEM_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out<5 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out_mux0000<7 :
+   2> on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/MemSrc_out_mux0000<7 : 4>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/WBSrc_out_mux0000<7 : 3>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_MEM_WB_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Ram/state_mux0000<11 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CPU.edif ...
+ngc2edif: Total memory usage is 77092 kilobytes
+
+Release 12.4 - ngc2edif M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design CPU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CPU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2_mux0000<4 : 1> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/MemSrc<3 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBReg<5 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBReg_mux0000<5 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBSrc<4 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBSrc_mux0000<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_EXE_MEM_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out<5 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out_mux0000<7 :
+   2> on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/MemSrc_out_mux0000<7 : 4>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/WBSrc_out_mux0000<7 : 3>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_MEM_WB_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CPU.edif ...
+ngc2edif: Total memory usage is 77988 kilobytes
+

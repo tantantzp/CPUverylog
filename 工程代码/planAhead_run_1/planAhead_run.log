@@ -1,0 +1,57 @@
+
+****** PlanAhead v12.4
+  **** Build 108585 by hdbuild on Tue Nov  9 17:32:56 MST 2010
+    ** Copyright 1986-1999, 2001-2010 Xilinx, Inc. All Rights Reserved.
+
+INFO: [HD-Licensing 4] Feature available: PartialReconfiguration
+Release 12.4 - ngc2edif M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Reading design CPU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CPU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/ALU_src2_mux0000<4 : 1> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/MemSrc<3 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBReg<5 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBReg_mux0000<5 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBSrc<4 : 0> on block CPU
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_Controler/WBSrc_mux0000<4 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_EXE_MEM_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out<5 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/ALU_Src2_out_mux0000<7 :
+   2> on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/MemSrc_out_mux0000<7 : 4>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus My_ID_EXE_Reg/WBSrc_out_mux0000<7 : 3>
+   on block CPU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus My_MEM_WB_Reg/WBSrc_out<4 : 0> on block
+   CPU is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CPU.edif ...
+ngc2edif: Total memory usage is 77988 kilobytes
+
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-Licensing 3] Your PlanAhead license expires in -668 day(s)
+INFO: [HD-ArchReader 0] Loading parts and site information from D:\xilinx12.4\ISE_DS\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'D:\xilinx12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'D:\xilinx12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+starting gui ...
+INFO: [HD-Application 0] Exiting PlanAhead...
+INFO: [HD-Licensing 2] Releasing license: PlanAhead

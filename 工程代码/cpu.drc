@@ -1,0 +1,13 @@
+Release 12.4 Drc M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Wed Dec 04 20:22:40 2013
+
+drc -z CPU.ncd CPU.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   My_MemDataMux/MemData_not0001 is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
