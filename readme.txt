@@ -1,1 +1,1 @@
-This is a project of computer orgnization class at THU. It implement a 16-bit CPU using the verylog as the coding language. It carefully handles all kinds of confilts possible to happen to enhance the efficiency of the CPU and implemented the VGA module. 
+This is a project of computer orgnization class at THU. It implement a 16-bit CPU using the verylog as the coding language. It carefully handles all kinds of confilts possible to happen to enhance the efficiency of the CPU and implemented the VGA module.   
